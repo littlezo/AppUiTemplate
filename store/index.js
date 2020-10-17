@@ -55,7 +55,19 @@ const store = new Vuex.Store({
 				text: '我的',
 				pagePath: '/pages/main/center/index'
 			}
-		]
+		],
+		vuex_config: {
+			show: true,
+			height: '50px',
+			bgColor: '#ffffff',
+			iconSize: 40,
+			borderTop: true,
+			midButton: false,
+			hideTabBar: true,
+			activeColor: '#1296db',
+			inactiveColor: '#707070',
+			midButtonSize: 90,
+		}
 	},
 	mutations: {
 		$uStore(state, payload) {
