@@ -31,6 +31,19 @@
 		}
 
 	}],
+	"subPackages": [{
+		"root": "goods",
+		"pages": []
+	}, {
+		"root": "order",
+		"pages": []
+	}, {
+		"root": "store",
+		"pages": []
+	}, {
+		"root": "user",
+		"pages": []
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "AppUiTemplate",
