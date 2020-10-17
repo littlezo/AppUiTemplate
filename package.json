@@ -1,0 +1,25 @@
+{
+	"name": "app-ui-template",
+	"version": "1.0.0",
+	"description": "AppUiTemplate",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/littlezo/AppUiTemplate.git"
+	},
+	"keywords": [],
+	"author": "@小小只^v^ soinco@qq.com",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/littlezo/AppUiTemplate/issues"
+	},
+	"homepage": "https://github.com/littlezo/AppUiTemplate",
+	"dependencies": {
+		"jweixin-module": "^1.6.0",
+		"vconsole": "^3.3.4",
+		"vue-i18n": "^8.20.0"
+	}
+}
