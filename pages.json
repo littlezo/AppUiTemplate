@@ -1,21 +1,63 @@
 {
-  "easycom": {
-    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
-  },
-  "pages": [
-  ],
-  "globalStyle": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "AppUiTemplate",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
-  },
-  "tabBar": {
-    "color": "#909399",
-    "selectedColor": "#303133",
-    "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "list": [
-    ]
-  }
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/main/index/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/main/category/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/main/function/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/main/center/index",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "AppUiTemplate",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/main/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/main/function/index",
+				"text": "功能"
+			},
+			{
+				"pagePath": "pages/main/category/index",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/main/center/index",
+				"text": "我的"
+			}
+		]
+	}
 }
