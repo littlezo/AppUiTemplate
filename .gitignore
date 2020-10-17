@@ -1,4 +1,6 @@
 /unpackage/dist/*
 /node_modules/*
 /.idea/*
+/common/config.js
+/common/http.api.js
 deploy.sh
