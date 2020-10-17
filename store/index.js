@@ -39,19 +39,19 @@ const store = new Vuex.Store({
 		// tabbar数据
 		vuex_tabbar: [{
 				iconPath: "/static/home.png",
-				selectedIconPath: "/static/home_select.png",
+				selectedIconPath: "/static/home_selected.png",
 				text: '首页',
 				pagePath: '/pages/main/index/index'
 			},
 			{
 				iconPath: "/static/function.png",
-				selectedIconPath: "/static/function_select.png",
+				selectedIconPath: "/static/function_selected.png",
 				text: '功能',
 				pagePath: '/pages/main/function/index'
 			},
 			{
 				iconPath: "/static/center.png",
-				selectedIconPath: "/static/center_select.png",
+				selectedIconPath: "/static/center_selected.png",
 				text: '我的',
 				pagePath: '/pages/main/center/index'
 			}
