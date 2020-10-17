@@ -1,5 +1,4 @@
-export default {
-	wssInterface: "wss://localhost:19001",
-	tcpInterface: "tcp://localhost:29001",
-	httpInterface: "https://localhost",
-};
+const wssInterface = "wss://localhost:19001";
+const tcpInterface = "tcp://localhost:29001";
+const httpInterface = "https://localhost";
+export { wssInterface, tcpInterface, httpInterface };
