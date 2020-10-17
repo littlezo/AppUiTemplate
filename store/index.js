@@ -72,7 +72,7 @@ const store = new Vuex.Store({
 	mutations: {
 		$uStore(state, payload) {
 			// 判断是否多层级调用，state中为对象存在的情况，诸如user.info.score = 1
-			let nameArr = payload.name.split('.');
+			let nameArr = payload.key.split('.');
 			let saveKey = '';
 			let len = nameArr.length;
 			if (len >= 2) {
@@ -84,7 +84,7 @@ const store = new Vuex.Store({
 				saveKey = nameArr[0];
 			} else {
 				// 单层级变量，在state就是一个普通变量的情况
-				state[payload.name] = payload.value;
+				state[payload.key] = payload.value;
 				saveKey = payload.key;
 			}
 			// 保存变量到本地，见顶部函数定义
